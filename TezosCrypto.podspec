@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TezosCrypto"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "TezosCrypto implements cryptography functions for the Tezos Blockchain."
 
   s.homepage     = "https://github.com/keefertaylor/TezosCrypto"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.dependency "Base58Swift", "~> 1.0.2"
   s.dependency "BigInt", "~> 3.1"
-  s.dependency "CryptoSwift", "~> 0.14.0"
+  s.dependency "CryptoSwift", "~> 0.15.0"
   s.dependency "Sodium", "~> 0.7.0"  
   
   s.test_spec "Tests" do |test_spec|
